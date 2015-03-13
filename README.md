@@ -1,0 +1,3 @@
+Ionic + Rails Sample
+================
+
