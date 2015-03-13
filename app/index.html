@@ -26,6 +26,9 @@
     <script src="bower_components/ionic/release/js/ionic.js"></script>
     <script src="bower_components/ionic/release/js/ionic-angular.js"></script>
     <script src="bower_components/ngCordova/dist/ng-cordova.js"></script>
+    <script src="bower_components/angular-cookie/angular-cookie.js"></script>
+    <script src="bower_components/ng-token-auth/dist/ng-token-auth.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -35,12 +38,14 @@
     <!-- your app's js -->
     <!-- build:js scripts/scripts.js -->
     <script src="scripts/app.js"></script>
-    <script src="scripts/controllers.js"></script>
+    <script src="scripts/auth.js"></script>
+    <script src="scripts/home.js"></script>
+    <script src="scripts/user_services.js"></script>
     <script src="scripts/configuration.js"></script>
     <!-- endbuild -->
   </head>
 
-  <body ng-app="starter">
+  <body ng-app="sample">
     <ion-nav-view></ion-nav-view>
   </body>
 </html>
